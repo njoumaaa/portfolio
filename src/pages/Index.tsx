@@ -23,19 +23,19 @@ const Index = () => {
   const projects = [{
     title: "Greent",
     description: "Eco-friendly mobile and web application promoting sustainable living",
-    image: "greent.png",
+    image: "https://pin.it/aaPELx13v",
     tech: ["React", "Node.js", "MongoDB", "React Native"],
     liveUrl: "https://greent-woad.vercel.app/",
   }, {
     title: "havana.tn",
     description: "Comprehensive e-commerce platform for modern watches",
-    image: "havana.tn.jpg",
+    image: "https://pin.it/2e2tl5lHV",
     tech: ["React", "TypeScript", "Express", "PostgreSQL"],
     liveUrl: "https://havana-tn.vercel.app/",
   }, {
     title: "HBC Tunisia",
     description: "Community social platform for a new E-COIN currency",
-    image: "hbc.jpg",
+    image: "https://pin.it/3p50vaTqp",
     tech: ["React", "PHP", "MySQL", "Socket.io"],
     liveUrl: "hannibalbarcacoin.vercel.app",
   }, {
@@ -47,13 +47,13 @@ const Index = () => {
   }, {
     title: "Quick URL Shortener",
     description: "Fast and reliable URL shortening service",
-    image: "link.png",
+    image: "https://pin.it/4bADf3wZ7",
     tech: ["JavaScript", "Express", "MongoDB"],
     liveUrl: "https://alias-link-maker.vercel.app/",
   }, {
     title: "Pomodoro Timer",
     description: "Productivity app based on the Pomodoro technique",
-    image: "pomodoro.png",
+    image: "https://pin.it/1CqmO9Eqh",
     tech: ["React", "TypeScript", "CSS3"],
     liveUrl: "https://pomodoro-weld-beta.vercel.app/",
   }];
