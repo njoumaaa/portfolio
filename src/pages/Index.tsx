@@ -23,37 +23,37 @@ const Index = () => {
   const projects = [{
     title: "Greent",
     description: "Eco-friendly mobile and web application promoting sustainable living",
-    image: "https://pin.it/aaPELx13v",
+    image: "/greent.png",
     tech: ["React", "Node.js", "MongoDB", "React Native"],
     liveUrl: "https://greent-woad.vercel.app/",
   }, {
     title: "havana.tn",
     description: "Comprehensive e-commerce platform for modern watches",
-    image: "https://pin.it/2e2tl5lHV",
+    image: "/havana.tn.jpg",
     tech: ["React", "TypeScript", "Express", "PostgreSQL"],
     liveUrl: "https://havana-tn.vercel.app/",
   }, {
     title: "HBC Tunisia",
     description: "Community social platform for a new E-COIN currency",
-    image: "https://pin.it/3p50vaTqp",
+    image: "/hbc.jpg",
     tech: ["React", "PHP", "MySQL", "Socket.io"],
     liveUrl: "hannibalbarcacoin.vercel.app",
   }, {
     title: "accentique-chic-boutique",
     description: "Digital platform showcasing creative accessories and fashion",
-    image: "accentique.png",
+    image: "/accentique.PNG",
     tech: ["React", "Tailwind CSS", "Node.js"],
     liveUrl: "https://accentique-tn.vercel.app",
   }, {
     title: "Quick URL Shortener",
     description: "Fast and reliable URL shortening service",
-    image: "https://pin.it/4bADf3wZ7",
+    image: "/link.png",
     tech: ["JavaScript", "Express", "MongoDB"],
     liveUrl: "https://alias-link-maker.vercel.app/",
   }, {
     title: "Pomodoro Timer",
     description: "Productivity app based on the Pomodoro technique",
-    image: "https://pin.it/1CqmO9Eqh",
+    image: "/pomodoro.png",
     tech: ["React", "TypeScript", "CSS3"],
     liveUrl: "https://pomodoro-weld-beta.vercel.app/",
   }];
@@ -168,7 +168,7 @@ const Index = () => {
             <div>
               <div className="w-80 h-80 mx-auto md:mx-0 rounded-full bg-gradient-to-br from-teal-600 to-blue-600 flex items-center justify-center text-white text-6xl font-bold">
                   <img 
-                      src="profile picture.jpg" 
+                      src="/profile picture.jpg" 
                       alt="Profile picture" 
                       className="w-full h-full object-cover"
                       onError={(e) => {
